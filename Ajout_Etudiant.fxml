@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.Ajout_EtudiantController">
+   <children>
+      <Label layoutX="119.0" layoutY="59.0" prefHeight="40.0" prefWidth="285.0" text="Ajout Etudiant " textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font></Label>
+      <Label layoutX="127.0" layoutY="189.0" prefHeight="23.0" prefWidth="96.0" text="Username:" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font></Label>
+      <Label layoutX="128.0" layoutY="225.0" prefHeight="23.0" prefWidth="95.0" text="C.I.N :" textFill="#f2f2f2">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <TextField fx:id="user" layoutX="244.0" layoutY="188.0" prefHeight="25.0" prefWidth="220.0" />
+      <TextField fx:id="cin1" layoutX="244.0" layoutY="224.0" prefHeight="25.0" prefWidth="220.0" />
+      <Button fx:id="enreg" layoutX="381.0" layoutY="335.0" mnemonicParsing="false" onAction="#btn_enreg" opacity="0.64" prefHeight="25.0" prefWidth="86.0" style="-fx-background-color: #373e63;" text="Enregistrer" textFill="WHITE" />
+      <Label layoutX="127.0" layoutY="123.0" text="Nom de l'etudiant" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font></Label>
+      <Label layoutX="127.0" layoutY="157.0" text="Prenom de l'etudiant" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <TextField fx:id="nom_et" layoutX="247.0" layoutY="119.0" prefHeight="25.0" prefWidth="220.0" />
+      <TextField fx:id="pre_et" layoutX="247.0" layoutY="153.0" prefHeight="25.0" prefWidth="220.0" />
+      <DatePicker fx:id="mydate" layoutX="244.0" layoutY="269.0" prefHeight="25.0" prefWidth="220.0" />
+      <Label layoutX="121.0" layoutY="270.0" prefHeight="23.0" prefWidth="95.0" text="Date Naissance:" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

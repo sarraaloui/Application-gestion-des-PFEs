@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.Affecter_encadreurController">
+   <children>
+      <Label layoutX="179.0" layoutY="52.0" prefHeight="47.0" prefWidth="402.0" text="Affecte un encadreur" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font></Label>
+      <Label layoutX="161.0" layoutY="148.0" text="CIN de l'enseignant " textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font></Label>
+      <Label layoutX="161.0" layoutY="188.0" prefHeight="20.0" prefWidth="125.0" text="CIN de l'etudiant" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font></Label>
+      <TextField fx:id="cin1" layoutX="300.0" layoutY="145.0" prefHeight="25.0" prefWidth="178.0" promptText="cin" />
+      <TextField fx:id="cin2" layoutX="300.0" layoutY="188.0" prefHeight="25.0" prefWidth="178.0" promptText="cin" />
+      <Button fx:id="enreg" layoutX="315.0" layoutY="265.0" mnemonicParsing="false" onAction="#btn_enregistrer" opacity="0.64" prefHeight="20.0" prefWidth="126.0" style="-fx-background-color: #2a558a;" text="Encadreur" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="rap" layoutX="315.0" layoutY="309.0" mnemonicParsing="false" onAction="#btn_rap" opacity="0.61" prefHeight="25.0" prefWidth="126.0" style="-fx-background-color: #2a558a;" text="Rapporteur" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

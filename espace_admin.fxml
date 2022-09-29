@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="527.0" prefWidth="775.0" style="-fx-background-color: #9ba1d1;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.Espace_adminController">
+   <left>
+      <VBox opacity="0.68" prefHeight="445.0" prefWidth="123.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="ajout_et" mnemonicParsing="false" onAction="#btn_ajout_et" prefHeight="38.0" prefWidth="123.0" text="Ajout Etudiant" textFill="#050c43">
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin></Button>
+            <Button fx:id="liste_et" mnemonicParsing="false" onAction="#btn_liste_et" prefHeight="37.0" prefWidth="123.0" text="Liste etudiants">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin></Button>
+            <Button fx:id="ajout_ens" mnemonicParsing="false" onAction="#btn_ajout_ens" prefHeight="35.0" prefWidth="123.0" text="Ajout Enseignant" textFill="#050c43">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin></Button>
+            <Button fx:id="list_ens" mnemonicParsing="false" onAction="#btn_list_ens" prefHeight="39.0" prefWidth="123.0" text="Liste Enseignants" textFill="#050c43">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="pfee" mnemonicParsing="false" onAction="#btn_pfe" prefHeight="36.0" prefWidth="124.0" text="Liste PFEs" textFill="#050c43">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="enc" mnemonicParsing="false" onAction="#btn_affecter_encadrent" prefHeight="35.0" prefWidth="124.0" text="Affecter à un PFE" textFill="#050c43">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin></Button>
+            <Button fx:id="decnx" mnemonicParsing="false" onAction="#btn_decnx" prefHeight="35.0" prefWidth="125.0" text="Deconnexion" textFill="#050c43">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+   <top>
+      <Label prefHeight="82.0" prefWidth="615.0" text="Bienvenue Sur Espace Admin" textFill="WHITE" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font></Label>
+   </top>
+</BorderPane>

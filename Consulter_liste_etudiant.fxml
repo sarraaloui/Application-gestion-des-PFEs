@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="428.0" prefWidth="623.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.Consulter_liste_etudiantController">
+   <children>
+      <Label layoutX="177.0" layoutY="30.0" prefHeight="35.0" prefWidth="379.0" text="Consulter liste Etudiants" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <TableView fx:id="table_et" layoutX="177.0" layoutY="138.0" opacity="0.68" prefHeight="200.0" prefWidth="430.0">
+        <columns>
+          <TableColumn fx:id="colid" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="colnom" prefWidth="75.0" text="Nom" />
+            <TableColumn fx:id="colprenom" prefWidth="75.0" text="Prenom" />
+            <TableColumn fx:id="coldate" prefWidth="204.0" text="Date Naissance" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

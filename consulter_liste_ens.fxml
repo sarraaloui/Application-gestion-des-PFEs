@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.Consulter_liste_ensController">
+   <children>
+      <Label layoutX="78.0" layoutY="63.0" text="Liste des Enseignants" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font></Label>
+      <TableView fx:id="table_ens" layoutX="146.0" layoutY="119.0" opacity="0.87" prefHeight="200.0" prefWidth="510.0" style="-fx-background-color: #e5f5ff;">
+        <columns>
+          <TableColumn fx:id="colid" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="colnom" prefWidth="75.0" text="Nom" />
+            <TableColumn fx:id="colprenom" prefWidth="104.0" text="Prenom" />
+            <TableColumn fx:id="coldate" minWidth="0.0" prefWidth="132.0" text="Date Naissance" />
+            <TableColumn fx:id="colcin1" prefWidth="123.0" text="CIN" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

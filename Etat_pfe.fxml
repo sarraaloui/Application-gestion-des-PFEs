@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.Etat_pfeController">
+   <children>
+      <Label layoutX="180.0" layoutY="79.0" prefHeight="64.0" prefWidth="203.0" text="Etat De Votre PFE est :" />
+      <TableView fx:id="table" layoutX="157.0" layoutY="153.0" prefHeight="200.0" prefWidth="321.0">
+        <columns>
+          <TableColumn fx:id="col_cin" prefWidth="104.0" text="Votre CIN" />
+          <TableColumn fx:id="col_etat" prefWidth="215.0" text="Etat" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

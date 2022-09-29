@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.Affecter_noteController">
+   <children>
+      <Label layoutX="156.0" layoutY="57.0" prefHeight="45.0" prefWidth="245.0" text="Affecter une note" textFill="#f5f5f5">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font></Label>
+      <Label layoutX="273.0" layoutY="192.0" prefHeight="17.0" prefWidth="54.0" text="Note" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <TextField fx:id="cin_et" layoutX="234.0" layoutY="115.0" prefHeight="25.0" prefWidth="193.0" promptText="cin etudiant" />
+      <Label layoutX="137.0" layoutY="118.0" text="CIN etudiant :" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font></Label>
+      <Button fx:id="affecter" layoutX="308.0" layoutY="243.0" mnemonicParsing="false" onAction="#btn_affecter" opacity="0.64" prefHeight="25.0" prefWidth="128.0" style="-fx-background-color: #4a0808;" text="Affecter" textFill="WHITE" />
+      <TextField fx:id="note" layoutX="345.0" layoutY="188.0" prefHeight="25.0" prefWidth="54.0" promptText="&lt;=20" />
+   </children>
+</AnchorPane>
